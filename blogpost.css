@@ -1,0 +1,16 @@
+.custom-container {
+    margin: 5vh 15vw;
+    text-align: center;
+    background-color: white;
+    padding: 200px;
+}
+
+.blog-page-cover {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+}
+
+.blog-content {
+    text-align: left;
+}

@@ -1,0 +1,73 @@
+/* Using strings */
+@import "navbar.css"; 
+@import "blogs.css";
+@import "blogpost.css";
+@import "footer.css";
+
+.container {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: flex-start;
+    background-color: white;
+    padding: 10px;
+}
+
+.top-caption {
+    text-align: right;
+    margin: 2vh 4vw 2vh 4vw;
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: column-reverse;
+    font-style: normal;
+}
+
+.wigs-container {
+    margin: 5vh 20vw 0 20vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.wigs {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+}
+
+.caption {
+    text-align: center;
+    margin: 2vh 2vw 2vh 2vw;
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: column;
+    font-style: normal;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .wigs-container {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .wigs-container {
+        margin: 5vh 9vw 0 9vw;
+    }
+}
+
+.social__link {
+    color: rgb(10, 126, 172);
+}
+
+.social__link:hover {
+    color: brown;
+    cursor: -webkit-grab;
+}
+
+.social__icons {
+    margin: 0 4rem;
+    text-align: center;
+}
