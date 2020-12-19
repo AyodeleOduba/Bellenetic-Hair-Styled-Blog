@@ -1,0 +1,25 @@
+.blogpostcontainer {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: flex-start;
+    background-color: white;
+    padding: 10px;
+}
+
+.blogpoststorycontainer {
+    margin: 5vh 15vw;
+    text-align: center;
+    background-color: white;
+    padding: 200px;
+}
+
+.blogpostimg {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+.blogpoststory {
+    text-align: left;
+    font-size: 22px;
+}

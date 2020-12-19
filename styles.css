@@ -1,0 +1,72 @@
+/* Using strings */
+@import "navbar.css"; 
+@import "blogs.css";
+@import "blogpost.css";
+@import "footer.css";
+
+.maincontainer {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: flex-start;
+    background-color: white;
+    padding: 10px;
+}
+
+.topcaption {
+    text-align: right;
+    margin: 2vh 4vw 2vh 4vw;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column-reverse;
+    font-style: normal;
+}
+
+.wigscontainer {
+    margin: 5vh 20vw 0 20vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.wigs {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+}
+
+.bottomcaption {
+    text-align: center;
+    margin: 2vh 4vw 2vh 4vw;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column;
+    font-style: normal;
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .wigscontainer {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .wigscontainer {
+        margin: 5vh 9vw 0 9vw;
+    }
+}
+
+.sociallink {
+    color: rgb(10, 126, 172);
+}
+
+.sociallink:hover {
+    color: brown;
+    cursor: -webkit-grab;
+}
+
+.socialicons {
+    margin: 0 4rem;
+    text-align: center;
+}
